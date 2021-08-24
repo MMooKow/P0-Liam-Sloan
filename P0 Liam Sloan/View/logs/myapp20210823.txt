@@ -1,0 +1,16 @@
+2021-08-23 16:54:26.944 -04:00 [ERR] There was an error logging in.
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Model.AppRepo.LogIn(String username, String password) in C:\Users\sloan\Desktop\p0\P0 Liam Sloan\Model\AppRepo.cs:line 41
+2021-08-23 17:41:11.246 -04:00 [ERR] There was an error logging in.
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Model.AppRepo.LogIn(String username, String password) in C:\Users\sloan\Desktop\p0\P0 Liam Sloan\Model\AppRepo.cs:line 41
